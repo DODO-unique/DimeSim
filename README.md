@@ -15,7 +15,7 @@ It’s modular, chaotic, and deeply personal—built to explore how algorithms m
 | `Fountain`   | Pure financial logic (calculations, % change, conversions) |
 | `Fluttershy` | API data fetcher (originally CoinGecko) |
 | `Engine`     | CSV logger with defined schema |
-| `Pancakes`   | *(Upcoming)* Graphical analytics module (planned PyQt MVP) |
+| `Pancakes`   | *(Upcoming)* Graphical analytics module (planned web-designed MVP) |
 | `utility/temporal_utility.py` | Custom time formatting functions (`epoch_to_imperium`, etc.) |
 
 ---
@@ -38,7 +38,7 @@ It’s modular, chaotic, and deeply personal—built to explore how algorithms m
 - ✅ Replace CoinGecko to avoid API caching & stale data
 - ✅ Add precise timestamps to log entries via Fluttershy
 - 🔄 Begin development of Pancakes:
-  - Basic PyQt-based UI for visualizing market performance
+  - Basic web-based UI for visualizing market performance 
 - 🔄 Integrate time utilities (`imperium ↔ epoch`) into log formatting
 
 ---
